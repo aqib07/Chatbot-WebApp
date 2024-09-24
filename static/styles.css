@@ -1,0 +1,113 @@
+/* General Body Styling */
+body {
+    background-color: #f1f3f5; /* Light grey background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #495057; /* Dark grey text */
+}
+
+/* Navbar Styling */
+.navbar {
+    margin-bottom: 20px;
+    background-color: #007bff; /* Blue background for navbar */
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+}
+
+.navbar-brand:hover {
+    color: #e2e6ea !important;
+}
+
+/* Chat Window Styling */
+#chat-window {
+    height: 400px;
+    max-height: 70vh;
+    overflow-y: auto;
+    border-radius: 12px;
+    border: 1px solid #ced4da;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Message Styling */
+.message {
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 18px;
+    display: inline-block;
+    max-width: 75%;
+    line-height: 1.5;
+    word-break: break-word; /* Ensure long words break correctly */
+}
+
+/* User Message Styling */
+.user-message {
+    background-color: #cce5ff; /* Light blue background for user messages */
+    color: #004085; /* Dark blue text */
+    margin-left: auto;
+    text-align: right;
+    align-self: flex-end; /* Aligns user messages to the right */
+}
+
+/* Bot Message Styling */
+.bot-message {
+    background-color: #e2e3e5; /* Light grey background for bot messages */
+    color: #383d41; /* Dark grey text */
+    margin-right: auto;
+    text-align: left;
+    align-self: flex-start; /* Aligns bot messages to the left */
+}
+
+/* User Input Styling */
+#user-input {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #dee2e6;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#message-input {
+    border-radius: 20px 0 0 20px;
+    border: 1px solid #ced4da;
+    padding: 12px;
+    font-size: 16px;
+    flex: 1; /* Allows input to take up available space */
+}
+
+#send-button {
+    border-radius: 0 20px 20px 0;
+    border: 1px solid #007bff;
+    background-color: #007bff;
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 10px; /* Spacing between input and button */
+}
+
+#send-button:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #343a40; /* Dark grey background for footer */
+    color: #ffffff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
